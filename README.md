@@ -22,4 +22,6 @@
 ### 3. Styling
 
 - link the stylesheet in the index.html
-- Orange background for the header
+- Orange background for the header and footer
+- oranger border and padding for sections
+- added border gradient color

@@ -19,6 +19,8 @@ h2 {
 
 p {
   size: 40px;
+  /* display: inline-block; */
+  padding: 8px;
 }
 
 footer {
@@ -29,9 +31,23 @@ footer {
 .main-section,
 .video-section,
 .info-section {
-  border: 4px solid orange;
-  margin: 8px;
-  padding: 8px;
+  border: 4px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(
+    90deg,
+    rgba(0, 247, 255, 1) 0%,
+    rgba(251, 163, 4, 1) 25%,
+    rgb(25, 251, 4) 50%,
+    rgb(251, 4, 45) 75%,
+    rgba(233, 0, 255, 1) 100%
+  );
+  margin: 24px;
+  padding: 24px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }
 
 .video-section {
